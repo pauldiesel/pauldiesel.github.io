@@ -1,0 +1,86 @@
+author: "Sreekar Reddy"
+url: "https://pauldiesel.github.io"
+permalink: /blog/:year/:month/:day/:title/
+logobrand: "Confabulations"
+description: "Hello everybody."
+keywords: "Confabulations, Sreekar"
+paginate: 4
+paginate_path: "/blog/pages/:num/"
+
+reading_time:       true
+words_per_minute:   200
+
+excerptTruncate: 200
+
+tag_page_layout: tag_page
+tag_page_dir: tags
+tag_permalink_style: pretty
+
+compress_html:
+    clippings: ['!--', html, head, title, base, link, meta, style, body, article, section, nav, aside, h1, h2, h3, h4, h5, h6, hgroup, header, footer, address, p, hr, blockquote, ol, ul, li, dl, dt, dd, figure, figcaption, main, div, table, caption, colgroup, col, tbody, thead, tfoot, tr, td, th]
+    endings: [html, head, body, li, dt, dd, p, rt, rp, optgroup, option, colgroup, caption, thead, tbody, tfoot, tr, td, th]
+
+
+sass:
+    sass_dir: assets/stylesheets
+
+markdown: kramdown
+kramdown:
+  auto_ids:         true
+  footnote_nr:      1
+  entity_output:    as_char
+  toc_levels:       1..6
+  enable_coderay:   false
+
+
+# analytics:
+#   #google:
+#   facebook: 1974458362838018
+
+# bing:
+#     validate: "74C35086502D0044BAD289F68057B30D"
+# Comments
+
+# disqus_shortname:   manikantadreddy
+# fbcomments: 1
+# fb_appid: 1166944040038372
+# Social
+# if you don't have any of social below, comment the line.
+#google:
+  #plus:            #username
+  #analytics:
+  #verify:
+  #ad-client:
+  #ad-slot:
+#bing-verify:
+# email:              manikanta.reddy.d@outlook.com
+# twitter:            ManikantaReddyD
+# facebook:           Manikanta.D.Reddy
+# github:             ManikantaReddyD
+# stackoverflow:     6345500/manikanta-reddy-d
+# linkedin:          ManikantaDReddy
+#xing:              username
+#instagram:          username
+# lastfm:            ManikantaReddy
+#tumblr:            username
+#pinterest:         username
+#foursquare:        username
+#steam:              username
+#dribbble:          username
+# youtube:           UCnwMLnk0Z61kFt3igpCkrvQ
+# soundcloud:        ManikantaReddyD
+#weibo:             username
+#flickr:            username
+#codepen:           username
+#keybase:           username
+#xmpp:              username@server.com
+#hackernews:        username
+# spotify: 12185478274
+# reddit: ManikantaReddyD
+# skype: manikanta.reddy.d
+
+
+plugins:
+    - jekyll
+    - jekyll/tagging
+- jekyll-paginate
