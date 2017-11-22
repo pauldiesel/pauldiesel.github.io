@@ -33,51 +33,51 @@ kramdown:
   enable_coderay:   false
 
 
-analytics:
-  #google:
-  facebook: 1974458362838018
+# analytics:
+#   #google:
+#   facebook: 1974458362838018
 
-bing:
-    validate: "74C35086502D0044BAD289F68057B30D"
-# Comments
+# bing:
+#     validate: "74C35086502D0044BAD289F68057B30D"
+# # Comments
 
-disqus_shortname:   manikantadreddy
-fbcomments: 1
-fb_appid: 1166944040038372
-# Social
-# if you don't have any of social below, comment the line.
-#google:
-  #plus:            #username
-  #analytics:
-  #verify:
-  #ad-client:
-  #ad-slot:
-#bing-verify:
-email:              manikanta.reddy.d@outlook.com
-twitter:            ManikantaReddyD
-facebook:           Manikanta.D.Reddy
-github:             ManikantaReddyD
-stackoverflow:     6345500/manikanta-reddy-d
-linkedin:          ManikantaDReddy
-#xing:              username
-#instagram:          username
-lastfm:            ManikantaReddy
-#tumblr:            username
-#pinterest:         username
-#foursquare:        username
-#steam:              username
-#dribbble:          username
-# youtube:           UCnwMLnk0Z61kFt3igpCkrvQ
-soundcloud:        ManikantaReddyD
-#weibo:             username
-#flickr:            username
-#codepen:           username
-#keybase:           username
-#xmpp:              username@server.com
-#hackernews:        username
-spotify: 12185478274
-reddit: ManikantaReddyD
-skype: manikanta.reddy.d
+# disqus_shortname:   manikantadreddy
+# fbcomments: 1
+# fb_appid: 1166944040038372
+# # Social
+# # if you don't have any of social below, comment the line.
+# #google:
+#   #plus:            #username
+#   #analytics:
+#   #verify:
+#   #ad-client:
+#   #ad-slot:
+# #bing-verify:
+# email:              manikanta.reddy.d@outlook.com
+# twitter:            ManikantaReddyD
+# facebook:           Manikanta.D.Reddy
+# github:             ManikantaReddyD
+# stackoverflow:     6345500/manikanta-reddy-d
+# linkedin:          ManikantaDReddy
+# #xing:              username
+# #instagram:          username
+# lastfm:            ManikantaReddy
+# #tumblr:            username
+# #pinterest:         username
+# #foursquare:        username
+# #steam:              username
+# #dribbble:          username
+# # youtube:           UCnwMLnk0Z61kFt3igpCkrvQ
+# soundcloud:        ManikantaReddyD
+# #weibo:             username
+# #flickr:            username
+# #codepen:           username
+# #keybase:           username
+# #xmpp:              username@server.com
+# #hackernews:        username
+# spotify: 12185478274
+# reddit: ManikantaReddyD
+# skype: manikanta.reddy.d
 
 
 plugins:

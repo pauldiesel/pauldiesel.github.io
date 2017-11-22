@@ -1,0 +1,41 @@
+.paginate {
+    background-color: $brand-primary;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    z-index: 1000;
+    >a {
+        border: 0;
+        border-radius: 30px !important;
+        transition: all .3s;
+        padding: 0px 11px;
+        margin: 0 3px;
+        min-width: 30px;
+        height: 30px;
+        font-size: 18px;
+        line-height: 50px;
+        color: #ffffff;
+        text-transform: uppercase;
+        background: transparent;
+        &:hover,
+        &:focus {
+            color: #ffffff;
+            font-size: 18px;
+        }
+    }
+    >.active>a,
+    >.active>span {
+        color: #ffffff;
+        font-size: 18px;
+        &,
+        &:focus,
+        &:hover {
+            background-color: $brand-primary;
+            border-color: $brand-primary;
+            color: $white-color;
+            @include shadow-4dp-color($brand-primary);
+        }
+    }
+}

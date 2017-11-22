@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.sitemaps.org/schemas/sitemap/0.9 https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+  
+    <url>
+      <loc>http://localhost:4000/blog/2017/04/28/fishy-cyber-attack-detection/</loc>
+      
+        <lastmod>2017-04-28T00:00:00-04:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/blog/2017/04/21/possible-worlds/</loc>
+      
+        <lastmod>2017-04-21T00:00:00-04:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/blog/2016/11/16/ultrasound-nerve-segmentation/</loc>
+      
+        <lastmod>2016-11-16T00:00:00-05:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/blog/2016/10/27/inversion-of-control/</loc>
+      
+        <lastmod>2016-10-27T00:00:00-04:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/blog/2016/09/26/criticism-against-rosenkrantz-example-against-nicod/</loc>
+      
+        <lastmod>2016-09-26T00:00:00-04:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/blog/2016/04/11/cuda-windows/</loc>
+      
+        <lastmod>2016-04-11T00:00:00-04:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/blog/2016/04/11/cats-or-dogs/</loc>
+      
+        <lastmod>2016-04-11T00:00:00-04:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/blog/2016/04/09/can-we-discriminate/</loc>
+      
+        <lastmod>2016-04-09T00:00:00-04:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/blog/2016/03/08/visual-words/</loc>
+      
+        <lastmod>2016-03-08T00:00:00-05:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/blog/2016/02/25/harris-image-match/</loc>
+      
+        <lastmod>2016-02-25T00:00:00-05:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/blog/2016/01/26/manifold-learning/</loc>
+      
+        <lastmod>2016-01-26T00:00:00-05:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/blog/2016/01/11/doctor-el-chatbot/</loc>
+      
+        <lastmod>2016-01-11T00:00:00-05:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/blog/2013/12/13/vhe-gamma-ray-astronomy/</loc>
+      
+        <lastmod>2013-12-13T00:00:00-05:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+  
+    
+    
+  
+    
+      <url>
+        <loc>http://localhost:4000/blog/</loc>
+        <lastmod>2017-11-21T00:00:00-05:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1</priority>
+       </url>
+    
+    
+  
+    
+    
+  
+    
+      <url>
+        <loc>http://localhost:4000/about/</loc>
+        <lastmod>2017-11-21T00:00:00-05:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1</priority>
+       </url>
+    
+    
+  
+    
+      <url>
+        <loc>http://localhost:4000/</loc>
+        <lastmod>2017-11-21T00:00:00-05:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1</priority>
+       </url>
+    
+    
+  
+    
+      <url>
+        <loc>http://localhost:4000/tags/</loc>
+        <lastmod>2017-11-21T00:00:00-05:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+       </url>
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+        <url>
+        <loc>http://localhost:4000/tags/gamma-rays</loc>
+        <lastmod>2017-11-21T00:00:00-05:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        </url>
+    
+  
+    
+    
+        <url>
+        <loc>http://localhost:4000/tags/astronomy</loc>
+        <lastmod>2017-11-21T00:00:00-05:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        </url>
+    
+  
+    
+    
+        <url>
+        <loc>http://localhost:4000/tags/telescopes</loc>
+        <lastmod>2017-11-21T00:00:00-05:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        </url>
+    
+  
+    
+    
+        <url>
+        <loc>http://localhost:4000/tags/nebula</loc>
+        <lastmod>2017-11-21T00:00:00-05:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        </url>
+    
+  
+    
+    
+        <url>
+        <loc>http://localhost:4000/tags/hocus-pocus</loc>
+        <lastmod>2017-11-21T00:00:00-05:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        </url>
+    
+  
+    
+    
+        <url>
+        <loc>http://localhost:4000/tags/image-processing</loc>
+        <lastmod>2017-11-21T00:00:00-05:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        </url>
+    
+  
+    
+    
+        <url>
+        <loc>http://localhost:4000/tags/doctor</loc>
+        <lastmod>2017-11-21T00:00:00-05:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        </url>
+    
+  
+    
+    
+        <url>
+        <loc>http://localhost:4000/tags/ai</loc>
+        <lastmod>2017-11-21T00:00:00-05:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        </url>
+    
+  
+    
+    
+        <url>
+        <loc>http://localhost:4000/tags/chat-bot</loc>
+        <lastmod>2017-11-21T00:00:00-05:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        </url>
+    
+  
+    
+    
+        <url>
+        <loc>http://localhost:4000/tags/lisp</loc>
+        <lastmod>2017-11-21T00:00:00-05:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        </url>
+    
+  
+    
+    
+        <url>
+        <loc>http://localhost:4000/tags/eliza</loc>
+        <lastmod>2017-11-21T00:00:00-05:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        </url>
+    
+  
+    
+    
+        <url>
+        <loc>http://localhost:4000/tags/emacs</loc>
+        <lastmod>2017-11-21T00:00:00-05:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        </url>
+    
+  
+    
+    
+        <url>
+        <loc>http://localhost:4000/tags/manifolds</loc>
+        <lastmod>2017-11-21T00:00:00-05:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        </url>
+    
+  
+    
+    
+        <url>
+        <loc>http://localhost:4000/tags/sklearn</loc>
+        <lastmod>2017-11-21T00:00:00-05:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        </url>
+    
+  
+    
+    
+        <url>
+        <loc>http://localhost:4000/tags/simulation</loc>
+        <lastmod>2017-11-21T00:00:00-05:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        </url>
+    
+  
+    
+    
+        <url>
+        <loc>http://localhost:4000/tags/uma-thurman</loc>
+        <lastmod>2017-11-21T00:00:00-05:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        </url>
+    
+  
+    
+    
+        <url>
+        <loc>http://localhost:4000/tags/bill</loc>
+        <lastmod>2017-11-21T00:00:00-05:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        </url>
+    
+  
+    
+    
+        <url>
+        <loc>http://localhost:4000/tags/machine-learning</loc>
+        <lastmod>2017-11-21T00:00:00-05:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        </url>
+    
+  
+    
+    
+        <url>
+        <loc>http://localhost:4000/tags/interest-points</loc>
+        <lastmod>2017-11-21T00:00:00-05:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        </url>
+    
+  
+    
+    
+        <url>
+        <loc>http://localhost:4000/tags/feature-descriptors</loc>
+        <lastmod>2017-11-21T00:00:00-05:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        </url>
+    
+  
+    
+    
+        <url>
+        <loc>http://localhost:4000/tags/visual-words</loc>
+        <lastmod>2017-11-21T00:00:00-05:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        </url>
+    
+  
+    
+    
+        <url>
+        <loc>http://localhost:4000/tags/sift</loc>
+        <lastmod>2017-11-21T00:00:00-05:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        </url>
+    
+  
+    
+    
+        <url>
+        <loc>http://localhost:4000/tags/binary-classification</loc>
+        <lastmod>2017-11-21T00:00:00-05:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        </url>
+    
+  
+    
+    
+        <url>
+        <loc>http://localhost:4000/tags/sex</loc>
+        <lastmod>2017-11-21T00:00:00-05:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        </url>
+    
+  
+    
+    
+        <url>
+        <loc>http://localhost:4000/tags/feature-engineering</loc>
+        <lastmod>2017-11-21T00:00:00-05:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        </url>
+    
+  
+    
+    
+        <url>
+        <loc>http://localhost:4000/tags/random-forests</loc>
+        <lastmod>2017-11-21T00:00:00-05:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        </url>
+    
+  
+    
+    
+        <url>
+        <loc>http://localhost:4000/tags/windows</loc>
+        <lastmod>2017-11-21T00:00:00-05:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        </url>
+    
+  
+    
+    
+        <url>
+        <loc>http://localhost:4000/tags/cuda</loc>
+        <lastmod>2017-11-21T00:00:00-05:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        </url>
+    
+  
+    
+    
+        <url>
+        <loc>http://localhost:4000/tags/gpu</loc>
+        <lastmod>2017-11-21T00:00:00-05:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        </url>
+    
+  
+    
+    
+        <url>
+        <loc>http://localhost:4000/tags/philosophy</loc>
+        <lastmod>2017-11-21T00:00:00-05:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        </url>
+    
+  
+    
+    
+        <url>
+        <loc>http://localhost:4000/tags/instance-confirmation</loc>
+        <lastmod>2017-11-21T00:00:00-05:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        </url>
+    
+  
+    
+    
+        <url>
+        <loc>http://localhost:4000/tags/confirmation-theory</loc>
+        <lastmod>2017-11-21T00:00:00-05:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        </url>
+    
+  
+    
+    
+        <url>
+        <loc>http://localhost:4000/tags/software-engineering</loc>
+        <lastmod>2017-11-21T00:00:00-05:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        </url>
+    
+  
+    
+    
+        <url>
+        <loc>http://localhost:4000/tags/dependency-injection</loc>
+        <lastmod>2017-11-21T00:00:00-05:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        </url>
+    
+  
+    
+    
+        <url>
+        <loc>http://localhost:4000/tags/deep-learning</loc>
+        <lastmod>2017-11-21T00:00:00-05:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        </url>
+    
+  
+    
+    
+        <url>
+        <loc>http://localhost:4000/tags/neural-networks</loc>
+        <lastmod>2017-11-21T00:00:00-05:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        </url>
+    
+  
+    
+    
+        <url>
+        <loc>http://localhost:4000/tags/logic</loc>
+        <lastmod>2017-11-21T00:00:00-05:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        </url>
+    
+  
+    
+    
+        <url>
+        <loc>http://localhost:4000/tags/non-classical-logic</loc>
+        <lastmod>2017-11-21T00:00:00-05:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        </url>
+    
+  
+    
+    
+        <url>
+        <loc>http://localhost:4000/tags/security</loc>
+        <lastmod>2017-11-21T00:00:00-05:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        </url>
+    
+  
+    
+    
+        <url>
+        <loc>http://localhost:4000/tags/lstm</loc>
+        <lastmod>2017-11-21T00:00:00-05:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        </url>
+    
+  
+    
+    
+        <url>
+        <loc>http://localhost:4000/tags/intrusion-detection</loc>
+        <lastmod>2017-11-21T00:00:00-05:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        </url>
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    <url>
+        <loc>http://localhost:4000/resume</loc>
+        <lastmod>2017-11-21T00:00:00-05:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1</priority>
+    </url>
+</urlset>
