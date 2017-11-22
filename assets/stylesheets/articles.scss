@@ -1,0 +1,64 @@
+.big-header {
+  height: 65vh;
+  min-height: 65vh;
+}
+
+.header-filter::after {
+  background-color: rgba(0, 0, 0, .5) !important;
+}
+
+.articles-list {
+  padding-top: 70px;
+  .article {
+    margin: 40px 0;
+    display: block;
+    .article-title {
+      font-family: "Roboto Slab", serif;
+      font-weight: bold;
+      margin-top: 5px;
+      a {
+        color: #3C4858;
+        text-decoration: none;
+        cursor: pointer;
+      }
+    }
+    .article-content {
+      color: #999;
+    }
+    .article-author {
+      a {
+        color: #3C4858;
+        font-weight: bold;
+        cursor: pointer;
+        text-decoration: none;
+      }
+    }
+    .article-tag{
+            max-width: 50px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+    }
+  }
+}
+
+.article-form {
+  margin-top: 60px;
+}
+
+.error-list {
+  padding-left: 30px;
+}
+
+.article-full-content p {
+  font-size: 1.35em !important;
+  line-height: 1.5em !important;
+  color: #555;
+}
+
+.card-image {
+  border-radius: 6px;
+  img {
+    width: 100%;
+    border-radius: 6px;
+  }
+}

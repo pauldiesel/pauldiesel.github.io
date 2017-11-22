@@ -1,0 +1,108 @@
+---
+layout: compress
+---
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    {% include head.html %}
+</head>
+
+<body class="index-page">
+    {% include nav.html %}
+    <div class="wrapper">
+        {% include body-header.html %}
+        <div class="main">
+            <div class="section">
+                <div class="container">
+                    <div class="col-md-10 col-lg-offset-1" style="font-family: 'Comfortaa'">
+                        <blockquote>
+                            <p>{{ page.excerpt }}</p>
+                        </blockquote>
+                        {% assign wpm = site.words_per_minute | append: '.0' %}
+                        {% assign readtime = page.content | strip_html | number_of_words | divided_by:wpm | round %}
+                        <div class="row">
+                            <p class="col-md-6">{{ page.date | date_to_long_string }}</p>
+                            <p class="col-md-6">Reading time ~{% if readtime <= 1 %}1 minute{% else %}{{ readtime }} minutes{% endif %}</p>
+                        </div>
+                        <div  style="overflow: hidden;">
+                            <div class="tags" style="white-space: nowrap; overflow-x: auto; overflow-y:hidden; width: 100%; height: 50px">
+                                {% for tag in page.tags %}
+                                <button class="btn btn-simple btn-primary" style="padding: 5px;"><a href="{{site.url}}/tags/{{tag}}" class="">{{tag}}</a></button>
+                                {%endfor%}
+                            </div>
+                        </div>
+                        <hr />
+                        {{ content }}
+                        <hr />
+                        {% include comments.html %}
+                        <h2 style="text-align: center;">More Posts</h2>
+                        <div class="row">
+                            <div class="col-md-6">
+                                {% if page.next.url %}
+                                <div class="card card-raised">
+                                    <div class="card-image" style="{%if page.next.feature%}background-image: url('{{page.next.feature}}');{%endif%} ">
+                                        {%if page.next.feature%}{%else%}
+                                        <h2>Next</h2>
+                                        {%endif%}
+                                    </div>
+                                    <div class="content">
+                                        <a href="{{site.url}}{{page.next.url}}">
+                                            <h3>{{page.next.title}}</h3>
+                                        </a>
+                                        {% assign wpm = site.words_per_minute | append: '.0' %}
+                                        {% assign readtime = page.next.content | strip_html | number_of_words | divided_by:wpm | round %}
+                                        <div class="row">
+                                            <p class="col-md-6">{{ page.next.date | date_to_long_string }}</p>
+                                            <p class="col-md-6">Reading time ~{% if readtime <= 1 %}1 minute{% else %}{{ readtime }} minutes{% endif %}</p>
+                                        </div>
+                                        <p>{{page.next.excerpt  | truncate: site.excerptTruncate}}</p>
+                                    </div>
+                                    <div class="tags content-bottom">
+                                        {% for tag in page.next.tags %}
+                                        <button class="btn btn-simple btn-primary" style="padding: 5px;"><a href="{{site.url}}/tags/{{tag}}" class="">{{tag}}</a></button>
+                                        {%endfor%}
+                                    </div> 
+                                </div>
+                                {% endif %}
+                            </div>
+                            <div class="col-md-6">
+                                {% if page.previous.url %}
+                                <div class="card card-raised">
+                                    <div class="card-image" style="{%if page.previous.feature%}background-image: url('{{page.previous.feature}}');{%endif%} ">
+                                        {%if page.previous.feature%}{%else%}
+                                        <h2>Previous</h2>
+                                        {%endif%}
+                                    </div>
+                                    <div class="content">
+                                        <a href="{{site.url}}{{page.previous.url}}">
+                                            <h3>{{page.previous.title}}</h3>
+                                        </a>
+                                        {% assign wpm = site.words_per_minute | append: '.0' %}
+                                        {% assign readtime = page.previous.content | strip_html | number_of_words | divided_by:wpm | round %}
+                                        <div class="row">
+                                            <p class="col-md-6">{{ page.previous.date | date_to_long_string }}</p>
+                                            <p class="col-md-6">Reading time ~{% if readtime <= 1 %}1 minute{% else %}{{ readtime }} minutes{% endif %}</p>
+                                        </div>
+                                        <p>{{page.previous.excerpt  | truncate: site.excerptTruncate}}</p>
+                                        
+                                    </div>
+                                    <div class="tags content-bottom">
+                                        {% for tag in page.previous.tags %}
+                                        <button class="btn btn-simple btn-primary" style="padding: 5px;"><a href="{{site.url}}/tags/{{tag}}" class="">{{tag}}</a></button>
+                                        {%endfor%}
+                                    </div>
+                                </div>
+                                {% endif %}
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+{% include scripts.html%}
+
+</html>

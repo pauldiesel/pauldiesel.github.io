@@ -1,0 +1,52 @@
+---
+PageTitle: Arcane Reveries | Manikanta Reddy
+layout: blog
+title: "Arcane Reveries"
+subtitle: "My timely musings"
+excerpt: "Hello everybody. This is about Manikanta, an Amateur Astronomer staring at the dark skies and a Software Developer working at Microsoft creating an impact. I heard that you wanted to know me, so here you go."
+feature: "/assets/img/blog.jpg"
+sitemap:
+    priority: 1
+    changefreq: 'weekly'
+---
+<div class="articles-list" id="articleslist" >
+    <div id="page1">
+            {% for post in site.posts limit: site.paginate %}
+            <div class="article">
+                <div class="row">
+                    <div class="col-md-4">
+                        {% comment %} <div class="card-image">
+                            <img class="img img-raised" src="{% if post.feature %}{{site.url}}{{ post.feature }}{%else%}{{site.url}}/assets/img/blog.jpg{% endif %}" alt="{{post.title}}">
+                        </div> {% endcomment %}
+                        <div class="card">
+                            <div class="card-image" style="background-image: url('{%if post.feature%}{{post.feature}}{%else%}{{site.url}}/assets/img/blog.jpg{%endif%}'); ">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <h3 class="article-title"><a href="{{site.url}}{{ post.url }}">{{post.title}}</a></h3>
+                        {% assign wpm = site.words_per_minute | append: '.0' %}
+                        {% assign readtime = post.content | strip_html | number_of_words | divided_by:wpm | round %}
+                        <div class="row">
+                            <p class="col-md-6">{{ post.date | date_to_long_string }}</p>
+                            <p class="col-md-6">Reading time ~{% if readtime <= 1 %}1 minute{% else %}{{ readtime }} minutes{% endif %}</p>
+                        </div>
+                        <p class="article-content">{{post.excerpt  | truncate: site.excerptTruncate}}...</p>
+                        <div  style="overflow: hidden;">
+                            <div class="tags" style="white-space: nowrap; overflow-x: auto; overflow-y:hidden; width: 100%; height: 50px">
+                                {% for tag in post.tags %}
+                                <button class="btn btn-simple btn-primary" style="padding: 5px;"><a href="{{site.url}}/tags/{{tag}}" class="">{{tag}}</a></button>
+                                {%endfor%}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr />
+            {% endfor %}
+    </div>
+</div>
+<div id="loadspinner" onscroll="myFunction()">
+    {% include spinner.html %}
+</div>
+<div style="height: 50px;"></div>

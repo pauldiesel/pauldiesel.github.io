@@ -1,0 +1,13 @@
+.media {
+  padding-bottom: 15px;
+  .pull-left {
+    padding: 0 10px 10px;
+    .avatar {
+      margin: 5px 15px 0 auto;
+      img {
+        width: 64px;
+        height: 64px;
+      }
+    }
+  }
+}

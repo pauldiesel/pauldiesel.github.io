@@ -1,0 +1,13 @@
+.label {
+  border-radius: $border-radius-huge;
+  padding: 5px 12px;
+  text-transform: lowercase;
+  font-size: 12px;
+  a:link {
+    text-decoration: none;
+}
+
+  &.label-default {
+    background-color: $gray-light;
+  }
+}

@@ -1,0 +1,29 @@
+---
+layout: compress
+---
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    {% include head.html %}
+    <script>
+        var maxPages = Math.ceil({{ site.posts | size }} / {{ site.paginate }});
+    </script>  
+</head>
+
+<body class="index-page">
+    {% include nav.html %}
+    <div class="wrapper">
+        {% include body-header.html %}
+        {% include body-main.html %}
+    </div>
+    <div style="overflow: hidden; text-align: center;">
+        <div class="paginate" id="paginate" style="white-space: nowrap; overflow-x: auto; overflow-y:hidden; width: 100%; ">
+            <a href="#page1"> 1</a>
+        </div>
+    </div>
+</body>
+{% include scripts.html %}
+<script
+<script src="{{ site.url }}/assets/javascripts/infinite-scroll.js" ></script>
+</html>

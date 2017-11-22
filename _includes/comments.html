@@ -1,0 +1,26 @@
+<div class="row comments animated fadeInUp">
+    <h3>Comments</h3>
+    <button id="show-comments" class="btn btn-primary">Load comments</button>
+    <div id="comments-spinner" style="display: none;">{% include spinner.html %}</div>
+    <div id="comments" style="display: none;">
+        <ul class="nav nav-pills">
+            {% if page.comments and site.fbcomments %}
+            <li class="active"><a data-toggle="tab" href="#fb_comments">Facebook</a></li>
+            {% endif %} {% if page.comments and site.disqus_shortname %}
+            <li><a data-toggle="tab" href="#disqus_comments">Disqus</a></li>
+            {% endif %}
+        </ul>
+        <hr />
+        <div class="tab-content">
+            {% if page.comments and site.fbcomments %}
+            <div id="fb_comments" class="tab-pane active">
+                <div class="fb-comments" data-href="{{ site.url }}{{ page.url }}" data-colorscheme="light" data-num-posts="4" data-width="100%"></div>
+            </div>
+            {% endif %} {% if page.comments and site.disqus_shortname %}
+            <div id="disqus_comments" class="tab-pane">
+                <div id="disqus_thread"></div>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</div>

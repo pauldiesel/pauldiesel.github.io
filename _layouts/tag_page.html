@@ -1,0 +1,59 @@
+---
+layout: compress
+---
+<!DOCTYPE HTML>
+<html> 
+<head>
+{% include head.html %}
+</head>
+
+<body class="index-page">
+    {% include nav.html %}
+    <div class="wrapper">
+        <div class="header header-filter">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="brand">
+                            <h1>{{ page.tag }}</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="section">
+                <div class="container">
+                    <div class="col-md-10 col-lg-offset-1">
+                        <div class="articles-list" id="articleslist" >
+                            {% for post in page.posts %}
+                            <div class="article">
+                                <div class="row">
+                                    <h3 class="article-title"><a href="{{site.url}}{{ post.url }}">{{post.title}}</a></h3>
+                                    {% assign wpm = site.words_per_minute | append: '.0' %}
+                                    {% assign readtime = post.content | strip_html | number_of_words | divided_by:wpm | round %}
+                                    <div class="row">
+                                        <p class="col-md-6">{{ post.date | date_to_long_string }}</p>
+                                        <p class="col-md-6">Reading time ~{% if readtime <= 1 %}1 minute{% else %}{{ readtime }} minutes{% endif %}</p>
+                                    </div>
+                                    <p class="article-content">{{post.excerpt | truncate: site.excerptTruncate}}...</p>
+                                    <div  style="overflow: hidden;">
+                                        <div class="tags" style="white-space: nowrap; overflow-x: auto; overflow-y:hidden; width: 100%; height: 50px">
+                                            {% for tag in post.tags %}
+                                            <button class="btn btn-simple btn-primary" style="padding: 5px;"><a href="{{site.url}}/tags/{{tag}}" class="">{{tag}}</a></button>
+                                            {%endfor%}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr />
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+{% include scripts.html%}
+</html>

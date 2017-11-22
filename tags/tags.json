@@ -1,0 +1,17 @@
+---
+layout: compress
+---
+[
+    {% for page in site.pages %}
+        {% if page.tag %}
+            {
+                "tag":"{{ page.tag }}",
+                "size": "{{ page.posts | size }}"
+            },
+        {% endif %}
+    {% endfor %}
+    {
+        "tag": "",
+        "size": ""
+    }
+]

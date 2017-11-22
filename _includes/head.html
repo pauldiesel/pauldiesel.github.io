@@ -1,0 +1,110 @@
+<meta charset="utf-8" />
+<link rel="apple-touch-icon" sizes="76x76" href="{{ site.url }}/assets/img/apple-icon.png">
+<link rel="icon" type="image/png" href="{{ site.url }}/assets/img/favicon.png">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+<title>{% if page.PageTitle %}{{ page.PageTitle }}{% else %}{{ page.title }}{%endif%}</title>
+<meta name="description" content="{% if page.excerpt %}{{ page.excerpt }}{%else%}{{site.description}}{%endif%}" />
+<meta name="author" content="{{ site.author }}" />
+<meta name="viewport" content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
+<meta name="keywords" content="{%for tag in page.tags %}{{tag}},{%endfor%}{{site.keywords}}" />
+<meta name="msvalidate.01" content="{{ site.bing.validate }}" />
+
+{% if page.redirect %}
+{%else%}
+<!--     Fonts and icons     -->
+<link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" />
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons"
+/>
+<link rel="stylesheet" href="{{ site.url }}/assets/stylesheets/font-awesome.min.css" />
+
+<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+<!-- CSS Files -->
+
+{% if page.code %}<link href="{{ site.url }}/assets/stylesheets/prism.css" rel="stylesheet" />{% endif %}
+<link href="{{ site.url }}/assets/stylesheets/application.css" rel="stylesheet" />
+
+<script>var siteUrl = "{{ site.url }}"; var pageUrl = "{{ page.url }}"</script>
+
+{%endif%}
+
+<!-- Open Graph Meta Tags -->
+<meta property="og:url"                content="{{ site.url }}{{ page.url }}" />
+<meta property="og:type"               content="article" />
+<meta property="og:title"              content="{% if page.PageTitle %}{{ page.PageTitle }}{% else %}{{ page.title }}{%endif%}" />
+<meta property="og:description"        content="{{ page.excerpt }}" />
+<meta property="og:image"              content="{% if page.feature %}{{site.url}}{{ page.feature }}{%else%}{{site.url}}/assets/img/blog.jpg{% endif %}" />
+<meta property="og:image:alt"              content="{% if page.PageTitle %}{{ page.PageTitle }}{% else %}{{ page.title }}{%endif%}" />
+
+<!-- Facebook Tags -->
+{% if site.analytics.facebook %}<meta property="fb:app_id"              content="{{ site.analytics.facebook }}" />{% endif %}
+
+<!-- Twitter Tags -->
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:creator" content="@{{ site.twitter }}" />
+<meta name="twitter:site" content="@{{ site.twitter }}" />
+<meta name="twitter:title" content="{% if page.PageTitle %}{{ page.PageTitle }}{% else %}{{ page.title }}{%endif%}" />
+<meta name="twitter:description" content="{{ page.excerpt }}" />
+<meta name="twitter:image" content="{{site.url}}{{ page.feature }}" />
+
+<!-- Google Data -->
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "{{ site.url }}{{ page.url }}"
+      },
+      "headline": "{% if page.PageTitle %}{{ page.PageTitle }}{% else %}{{ page.title }}{%endif%}",
+      "image": [
+        "{{site.url}}{{ page.feature }}"
+       ],
+       "datePublished": "{%if page.date %}{{page.date}}{%else%}2017-02-21{%endif%}",
+       "publisher":{
+            "@type": "Organization",
+            "name": "Arcane Reveries",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "{{ site.url }}/favicon.png"
+              }
+       },
+      "author": {
+        "@type": "Person",
+        "name": "{{ site.author }}",
+        "sameAs": [
+            {% if site.email %}"mailto:{{ site.email }}",{% endif %}
+            {% if site.twitter %}"https://twitter.com/{{ site.twitter }}",{% endif %}
+            {% if site.facebook %}"https://facebook.com/{{ site.facebook }}",{% endif %}
+            {% if site.google.plus %}"https://plus.google.com/+{{ site.google.plus }}",{% endif %}
+            {% if site.linkedin %}"https://linkedin.com/in/{{ site.linkedin }}",{% endif %}
+            {% if site.xing %}"https://www.xing.com/profile/{{ site.xing }}",{% endif %}
+            {% if site.instagram %}"https://instagram.com/{{ site.instagram }}",{% endif %}
+            {% if site.tumblr %}"https://{{ site.tumblr }}.tumblr.com",{% endif %}
+            {% if site.github %}"https://github.com/{{ site.github }}",{% endif %}
+            {% if site.stackoverflow %}"https://stackoverflow.com/users/{{ site.stackoverflow }}",{% endif %}
+            {% if site.lastfm %}"https://www.last.fm/user/{{ site.lastfm }}",{% endif %}
+            {% if site.dribbble %}"https://dribbble.com/{{ site.dribbble }}",{% endif %}
+            {% if site.pinterest %}"https://www.pinterest.com/{{ site.pinterest }}",{% endif %}
+            {% if site.foursquare %}"https://foursquare.com/{{ site.foursquare }}",{% endif %}
+            {% if site.steam %}"https://steamcommunity.com/id/{{ site.steam }}",{% endif %}
+            {% if site.youtube %}"https://youtube.com/channel/{{ site.youtube }}",{% endif %}
+            {% if site.soundcloud %}"https://soundcloud.com/{{ site.soundcloud }}",{% endif %}
+            {% if site.weibo %}"https://www.weibo.com/{{ site.weibo }}",{% endif %}
+            {% if site.flickr %}"https://www.flickr.com/{{ site.flickr }}",{% endif %}
+            {% if site.codepen %}"https://codepen.io/{{ site.codepen }}",{% endif %}
+            {% if site.keybase %}"https://keybase.io/{{ site.keybase }}",{% endif %}
+            {% if site.xmpp %}"xmpp:{{ site.xmpp }}",{% endif %}
+            {% if site.spotify %}"https://open.spotify.com/user/{{ site.spotify }}",{% endif %}
+            {% if site.reddit %}"https://www.reddit.com/user/{{ site.reddit }}",{% endif %}
+            {% if site.skype %}"skype:{{ site.skype }}?chat",{% endif %}
+            {% if site.hackernews %}"https://news.ycombinator.com/user?id={{ site.hackernews }}",{% endif %}
+            ""        
+        ]
+      },
+      "description": "{{ page.excerpt }}"
+    }
+    </script>
+    
